@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+nav {
+    height: 55px;
+    display: flex;
+    padding: 20px 36px;
+    background-color: lightpink;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header--icon {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 10px
+}
