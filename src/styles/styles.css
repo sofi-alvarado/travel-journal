@@ -27,15 +27,22 @@ nav {
     padding: 10px
 }
 
-img {
-    width: 195px;
-    height: 258px;
-    border-radius: 5px;
+.cards--list {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: auto;
 }
 
 .card--container {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
     margin: 20px;
 }
+
 .card--container, .card--location {
    
     display: flex;
@@ -43,9 +50,19 @@ img {
     
 }
 
+.card--image {
+    width: 195px;
+    height: 258px;
+    border-radius: 9px;
+}
 
 .card--info {
     padding: 20px;
+}
+
+.location--icon {
+    width: 18px;
+    height:20px;
 }
 
 .location--name {
@@ -59,7 +76,6 @@ a {
 }
 
 hr {
-  
     border: 1px solid #F5F5F5;
     margin: 20px;
 }
